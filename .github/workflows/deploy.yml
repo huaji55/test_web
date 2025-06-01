@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main  # 如果你是用 main 當主分支
+      
+permissions:
+  contents: write
 
 jobs:
   deploy:
